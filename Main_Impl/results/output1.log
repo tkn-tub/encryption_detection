@@ -1,0 +1,5 @@
+Processing flows based on the config file: 
+Configuration.ini
+Existed reportTime file is removed..
+Existed training file is removed, should be built in training phase
+Existed results file is removed to show the new results

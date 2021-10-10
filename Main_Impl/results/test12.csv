@@ -1,0 +1,23 @@
+#The local date and time: 	Fri Sep 24 22:04:26 2021
+
+#Training , Flows in pcap file
+#/mnt/c/Users/ahmad/Desktop/Thesis/pcap_files/test_pcap_output/t1.pcap
+#This file contains the features extracted from the Randomness tests and the corresponding label
+#The features are basically a statistaical representation (mean and standard deviation) of the p-values
+#Each RT on each input(payload) generates one p-vlaue, for mulitple p-values the mean(M) and standard(S) deviation are calculated as featuers
+#label = 0 for non-encrypted data
+#label = 1 for encrypted data
+#Labels are extracted from GTfile specified in Configuration.ini file and translated based on translator.cpp file
+#NOTE: If there is no output, check the GTfile parameter in Configuration.ini file
+#Randmoness Tests should be in this order if used (uncommented in Configuration file):
+#FrequencyTest, BlockFreqTest, SerialTest, CumulativeSumTest, ApproximateEntropyTest, DescreteFourierTransformTest, LongestRunsOfOnesTest, RunsTest, TopologicalBinaryTest, GreatesCommonDivisorTest
+#Example: FreqM and FreqS represent the mean and standard deviation values of FrequencyTest
+FreqM,FreqS,BlockFreqM,BlockFreqS,SerM,SerS,CumSumM,CumSumS,ApEntM,ApEntS,DftM,DftS,LrunsM,LrunsS,RunsM,RunsS,TBTM,TBTS,GCDM,GCDS,BckstackM,BckstackS,Label
+0.220327,0.120671,0.220962,0.110481,0.417331,0.329438,0.0704914,0.0375629,0.446435,0.361023,0.360923,0.293279,0.382038,0.297235,0.168482,0.122772,0.01905,0.011958,0,0.05,0.02,0.01,1
+0.125568,0.0964735,0.205239,0.102619,0.457139,0.371425,0.0627984,0.0361965,0.474774,0.579703,0.364999,0.438737,0.0863762,0.0557984,0.276376,0.138188,0.0188459,0.0123193,0,0.05,0.02,0.01,1
+4.87668e-10,2.43834e-10,3.92089e-128,1.96045e-128,0.489898,0.6,3.00737e-12,1.50369e-12,0,1,9.10874e-12,4.55437e-12,0.000654809,0.000327404,0,0,0.000373527,0.00224578,0,0.05,0,0,0
+0.23872,0.11936,7.16107e-17,3.58053e-17,0.489898,0.4,0.00193717,0.000968587,0.489898,0.6,0.379356,0.18968,0.107484,0.0537418,0.0823776,0.0411888,0.000553281,0.00280614,0,0.05,0,0,0
+0.00243514,0.00121758,9.17996e-13,4.58998e-13,4.46336e-16,2.23168e-16,1.27126e-07,7.59599e-08,0.489898,0.4,0.124343,0.0621829,0.058779,0.0293895,0.0885931,0.0442966,0.000640635,0.00321722,0,0.05,0,0,0
+0.0827271,0.0415681,4.38067e-19,2.19034e-19,4.86979e-47,2.43489e-47,5.68552e-06,2.99523e-06,0.489898,0.4,0.277801,0.144162,0.123155,0.0615778,0.000863721,0.000539438,0.000686311,0.00320424,0,0.05,0,0,0
+0.00431604,0.00217844,0.297715,0.148857,0.489898,0.6,3.51126e-05,1.75623e-05,0.489898,0.6,0.213649,0.109905,0.2989,0.14945,5.08725e-05,4.10903e-05,0.000576232,0.0026958,0.02,0.04,0,0,0
+1.50279e-08,7.53021e-09,4.63964e-75,2.34546e-75,0,0,3.00557e-08,1.50604e-08,0.489898,0.6,4.9761e-06,3.74496e-06,2.25731e-14,1.12958e-14,0,0,0.0006062,0.00315015,0,0.05,0,0,0

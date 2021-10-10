@@ -1,0 +1,22 @@
+#The local date and time: 	Fri Sep 24 22:04:26 2021
+
+#TIME CONSUMTION CALCUALATIONS, Flows in pcap file
+#/mnt/c/Users/ahmad/Desktop/Thesis/pcap_files/test_pcap_output/t1.pcap
+#This file contains the Time report for implementing functions below
+#All Randomness Tests plugin functions including RTs in R seperated
+#RTs preprocessing (which includes the initialization of R instance in the first time)
+#Ground truth label extraction in which the caputred flow is matched with the ones saved in GT file
+#Classification time using ANN prediction
+#NOTE: this time calculation is for each processed flow
+#in ANN classification with its trained model(the model is loaded only once in the first flow)
+#
+RTpre	Freq	Blockfreq	Ser	Cumsum	ApEnt	Dft	Lruns	Runs	TBT	GCD	Bckstack	GTmatch	Classification	Packets	FlowID
+56	64	65	208	52	272	2897	55	15	1018512	447129	490132	13	13	5	48136128
+105	25	50	26922	38	32821	5623	49	21	588900	710167	573874	14	14	5	27459712
+137	32	25	41399	48	53350	7633	58	26	598902	723586	805613	16	16	5	1055443008
+116	28	57	21670	45	24651	6884	65	27	564563	810479	776462	16	16	5	1201867456
+72	25	95	46366	40	53655	10361	63	20	567858	733009	687070	13	13	5	1578473904
+68	21	67	40473	36	47688	3687	128	24	490132	572017	612257	12	12	5	2223073136
+46	16	41	153	23	195	3251	31	13	342980	366575	358497	13	13	3	4098946288
+91	27	46	203	41	228	8691	51	22	469182	679771	590667	12	12	5	3780264384
+62	19	46	51997	35	61189	3142	51	16	463603	580290	835052	17	

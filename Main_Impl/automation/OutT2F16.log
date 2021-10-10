@@ -1,0 +1,105 @@
+This is the time consumption of the first flow which includes the initialization of RTs and ANN
+RTpre:	85,Freq:	32,Blockfreq	25,Ser	139,Cumsum	78,ApEnt	210,Dft	7628,Lruns	65,Runs	21,GTmatch	10,Classification	10
+29643
+reportTime = /home/ahmad/structureBuilder/FinalResults/T2F16/timeT2F16All.log
+
+reportTime = /home/ahmad/structureBuilder/FinalResults/T2F16/timeT2F16All0.log
+
+TimeLog= /home/ahmad/structureBuilder/FinalResults/T2F16/timeT2F16All.log
+
+TimeLog= /home/ahmad/structureBuilder/FinalResults/T2F16/timeT2F16All0.log
+
+Here should be the modified TIMELOGFILE
+
+ /home/ahmad/structureBuilder/FinalResults/T2F16/timeT2F16All0.log
+Iteration 0 is DONE_______________________________________
+This is the time consumption of the first flow which includes the initialization of RTs and ANN
+RTpre:	71,Freq:	37,Blockfreq	27,Ser	129,Cumsum	2230,ApEnt	128,Dft	7217,Lruns	68,Runs	23,GTmatch	12,Classification	12
+29643
+reportTime = /home/ahmad/structureBuilder/FinalResults/T2F16/timeT2F16All0.log
+
+reportTime = /home/ahmad/structureBuilder/FinalResults/T2F16/timeT2F16All00.log
+
+TimeLog= /home/ahmad/structureBuilder/FinalResults/T2F16/timeT2F16All0.log
+
+TimeLog= /home/ahmad/structureBuilder/FinalResults/T2F16/timeT2F16All00.log
+
+Here should be the modified TIMELOGFILE
+
+ /home/ahmad/structureBuilder/FinalResults/T2F16/timeT2F16All00.log
+Iteration 1 is DONE_______________________________________
+This is the time consumption of the first flow which includes the initialization of RTs and ANN
+RTpre:	448,Freq:	131,Blockfreq	126,Ser	559,Cumsum	170,ApEnt	630,Dft	6072,Lruns	50,Runs	15,GTmatch	11,Classification	11
+29643
+reportTime = /home/ahmad/structureBuilder/FinalResults/T2F16/timeT2F16All00.log
+
+reportTime = /home/ahmad/structureBuilder/FinalResults/T2F16/timeT2F16All000.log
+
+TimeLog= /home/ahmad/structureBuilder/FinalResults/T2F16/timeT2F16All00.log
+
+TimeLog= /home/ahmad/structureBuilder/FinalResults/T2F16/timeT2F16All000.log
+
+Here should be the modified TIMELOGFILE
+
+ /home/ahmad/structureBuilder/FinalResults/T2F16/timeT2F16All000.log
+Iteration 2 is DONE_______________________________________
+This is the time consumption of the first flow which includes the initialization of RTs and ANN
+RTpre:	71,Freq:	58,Blockfreq	41,Ser	150,Cumsum	83,ApEnt	162,Dft	7660,Lruns	72,Runs	21,GTmatch	14,Classification	14
+29643
+reportTime = /home/ahmad/structureBuilder/FinalResults/T2F16/timeT2F16All000.log
+
+reportTime = /home/ahmad/structureBuilder/FinalResults/T2F16/timeT2F16All0000.log
+
+TimeLog= /home/ahmad/structureBuilder/FinalResults/T2F16/timeT2F16All000.log
+
+TimeLog= /home/ahmad/structureBuilder/FinalResults/T2F16/timeT2F16All0000.log
+
+Here should be the modified TIMELOGFILE
+
+ /home/ahmad/structureBuilder/FinalResults/T2F16/timeT2F16All0000.log
+Iteration 3 is DONE_______________________________________
+This is the time consumption of the first flow which includes the initialization of RTs and ANN
+RTpre:	150,Freq:	59,Blockfreq	93,Ser	206,Cumsum	71,ApEnt	232,Dft	7567,Lruns	51,Runs	15,GTmatch	13,Classification	13
+29643
+reportTime = /home/ahmad/structureBuilder/FinalResults/T2F16/timeT2F16All0000.log
+
+reportTime = /home/ahmad/structureBuilder/FinalResults/T2F16/timeT2F16All00000.log
+
+TimeLog= /home/ahmad/structureBuilder/FinalResults/T2F16/timeT2F16All0000.log
+
+TimeLog= /home/ahmad/structureBuilder/FinalResults/T2F16/timeT2F16All00000.log
+
+Here should be the modified TIMELOGFILE
+
+ /home/ahmad/structureBuilder/FinalResults/T2F16/timeT2F16All00000.log
+Iteration 4 is DONE_______________________________________
+
+
+Results Experiments 
+
+ [[77.16275659824046, 73.40889276373147, 75.23903136448934, 90.54653384279476], [77.13341897595889, 73.2868352223191, 75.16094420600858, 90.52265283842796], [77.3345588235294, 73.35658238884045, 75.29306487695749, 90.58064956331879], [77.40869884382455, 73.54838709677419, 75.42918454935622, 90.625], [77.39562258598491, 73.3740191804708, 75.3311851056212, 90.59770742358079]]
+
+
+Time Experiments
+
+ [[2.488782, 0.616722, 0.811841, 287.439849, 1.22325, 338.978668, 316.319113, 1.507524, 0.664856, 1.934687, 1.934687], [2.414857, 0.871244, 0.790135, 281.437863, 1.227112, 317.144408, 277.215841, 1.461363, 0.647383, 31.134646, 31.134646], [2.554281, 0.63929, 0.827062, 312.393134, 1.299934, 355.54929, 433.984989, 1.51014, 0.66467, 111.281262, 111.281262], [3.087946, 0.64906, 0.870813, 383.61382, 1.347542, 430.86241, 360.269198, 1.590013, 0.696217, 49.421567, 49.421567], [4.64996, 0.650126, 0.865174, 311.027572, 1.390545, 367.206564, 501.539197, 1.558492, 0.691396, 55.27936, 55.27936]]
+DATA_____________________________ 3.0391652000000002
+DATA_____________________________ 0.6852884
+DATA_____________________________ 0.833005
+DATA_____________________________ 315.1824476
+DATA_____________________________ 1.2976766
+DATA_____________________________ 361.948268
+DATA_____________________________ 377.8656676
+DATA_____________________________ 1.5255064
+DATA_____________________________ 0.6729044
+DATA_____________________________ 49.8103044
+DATA_____________________________ 49.8103044
+PARAMETERS_____________________________ ['Runs', 'Freq', 'BlockFreq', 'Cumsum', 'LRuns', 'Preprocessing', 'GTmatch', 'Classification', 'Ser', 'AprEnt', 'DFT']
+       Runs      Freq  BlockFreq  ...         Ser      AprEnt         DFT
+0  0.664856  0.616722   0.811841  ...  287.439849  338.978668  316.319113
+1  0.647383  0.871244   0.790135  ...  281.437863  317.144408  277.215841
+2  0.664670  0.639290   0.827062  ...  312.393134  355.549290  433.984989
+3  0.696217  0.649060   0.870813  ...  383.613820  430.862410  360.269198
+4  0.691396  0.650126   0.865174  ...  311.027572  367.206564  501.539197
+
+[5 rows x 11 columns]

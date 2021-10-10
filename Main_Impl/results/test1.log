@@ -1,0 +1,21 @@
+#The local date and time: 	Fri Sep 24 22:04:26 2021
+
+#RESULTS , Flows in pcap file
+#/mnt/c/Users/ahmad/Desktop/Thesis/pcap_files/test_pcap_output/t1.pcap
+#This file contains the flow five tuple, label and prediction result
+#five tuple are the biflow info which is examined for training OR classification
+#label : can have values according to translator function see translator.cpp
+#label = -1 this is undefined label(unknown)
+#label = 254 this means the flow is not found in GTfile 
+#prediction : can have values according to the classificaton classes defined 
+#in ANN classification with its trained model
+#prediction = -1 this means the value is not defined - should be only in training phase
+FlowID	Src_ip_address	Dst_ip_address	pro	s_p	d_p	label	pred	pckts
+48136128	147.83.42.206	173.194.41.240	6	3413	443	1	1	5
+27459712	147.83.42.206	173.194.34.239	6	3414	443	1	1	5
+1055443008	147.83.42.206	87.248.112.181	6	3378	80	0	0	5
+1201867456	147.83.42.206	98.137.80.31	6	3404	80	0	1	5
+1578473904	147.83.42.206	98.137.80.31	6	3395	80	0	0	5
+2223073136	147.83.42.206	98.137.80.31	6	3391	80	0	0	5
+4098946288	147.83.42.206	98.139.240.22	6	3415	80	0	1	3
+3780264384	147.83.42.206	98.137.80.31	6	3388	80	0	0	5
