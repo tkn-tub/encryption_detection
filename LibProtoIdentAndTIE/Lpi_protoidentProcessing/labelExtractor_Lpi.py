@@ -1,6 +1,6 @@
 
 """This script generates the labeled files from an lpi_protoident output file
-Three types of labeling is provided for binary and protocol (5 and 6 protocols) for evaluation
+Three types of labeling is provided for binary and protocol (5 and 6 protocols) for evaluation.
 the headers (LpiOutput,label,pred) need to be added manually to the output files
 The unlabeled flows such flows without payload or UDP flows will be execluded"""
 

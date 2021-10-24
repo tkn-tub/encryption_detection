@@ -1,7 +1,7 @@
 # Dataset
 A variety of file types with different sizes are downloaded from a publicly available machine learning dataset website [Kaggle](https://www.kaggle.com/datasets). These file types are ("au" "txt" "mp3" "pdf" "wav" "png" "xls" "csv" "webm" "mat" "zip" "jpg" "mp4"). Using different data-set is possible, but it is recommended to have all the listed file types included to avoid any errors. There are multiple operations must be done on the private data-set to be ready:
 
-    * Organizing the files in directories that named with the files type and include all files from the same type in one directory, i.e. png directory contains all.png files. The following simple script can do this task `GroundTruth_Generator/DataSetPreprocesssing`.
+    * Organizing the files in directories that named with the files' type and include all files from the same type in one directory, i.e. png directory contains all .png files. The following simple script can do this task `GroundTruth_Generator/DataSetPreprocesssing`.
     * To avoid having too large PCAP file, this command can be run to exclude the files that have size more than 3M.
 ```
 toremove=$(find . -size +3M);for i in $toremove; do rm $i; echo $i; done
@@ -57,7 +57,7 @@ servers_pid=$(ps -e | pgrep nc); for i in $servers_pid; do kill -9 $i; done; ps 
 ```
 
 # Client
-In practice the client is run on the server which runs `NETCAT`.
+**In practice the client is run on the server which runs `NETCAT`.**
 + The traffic is captured and saved with tcpdump. Filtering the traffic is accordingto the labeled port numbers as shown in the following command
 ```
 sudo tcpdump -s0 -i any "(portrange 6000-6013 or portrange 8000-8013 or portrange 2000-2013 or portrange 4000-4013 or portrange 3000-3013 or portrange 7000-7013)"  -nvv -w capturedTraffic.pcap

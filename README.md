@@ -1,24 +1,25 @@
+**Installations and running the implementation and all scripts are tested on Ubuntu 20.04.2**
 # Installations
 In this section, I explain in details all the required libraries and packages for the implementation.
 
-+ Libtrace and LibFlowManager libraries can be installed according to the in-structions in the corresponding documentations, which are publicly availablein GitHub
++ Libtrace and LibFlowManager libraries can be installed according to the instructions in the corresponding documentations, which are publicly available in GitHub
     - [Libtrace](https://github.com/LibtraceTeam/libtrace/wiki/Installing-Libtrace)
     - [LibFlowManager](https://github.com/wanduow/libflowmanager/wiki/Installing-Debian-Packaged-Version).
-+ For embedding R in CPP, I used the RInside library along with Rcpp.  Thus,installing R programming language with the mentioned libraries is required.
++ For embedding R in CPP, I used the RInside library along with Rcpp.  Thus, installing R programming language with the mentioned libraries is required.
 
     * Install R with the following commands:
         ```
         sudo  apt  update
         sudo  apt  install r-base
         ```
-    * After installing R, the packages RInside and Rcpp can be installed fromR shell. As shown in the following commands.
+    * After installing R, the packages RInside and Rcpp can be installed from R shell. As shown in the following commands.
         ```
         sudo R
         > install.packages("Rcpp")
         > install.packages("RInside")
         ```
-    * install the CryptRndTest package: the package is archived along with most of its dependencies, so it can not be installed from R shell as the standard packages. There is a workaround for installation which has to be used for each dependency ofCryptRndTest until having all dependencies installed. [This_link](https://stackoverflow.com/questions/24194409/how-do-i-install-a-package-that-has-been-archived-from-cran)
-+ For embedding Python inside CPP, the python3 has to be installed. The mainapplication is tested on python3.8.
+    * install the CryptRndTest package: the package is archived along with most of its dependencies, so it can not be installed from R shell as the standard packages. There is a workaround for installation which has to be used for each dependency of CryptRndTest until having all dependencies installed. [This_link](https://stackoverflow.com/questions/24194409/how-do-i-install-a-package-that-has-been-archived-from-cran)
++ For embedding Python inside CPP, the python3 has to be installed. The main application is tested on python3.8.
     * It can be installed with the following command.
         ```
         sudo  apt  install  python3 .8
@@ -48,7 +49,7 @@ In this section, I explain in details all the required libraries and packages fo
     - The files’ paths must be absolute paths and NOT relative paths.
     - The variables’ names must be unique in the file and can not be used as values.
     - The file itself contains some important comments, which must be considered
-+ Configurations for training is done with Main_Impl/ANNinPython/config.ini file.The following parameters should be specified to create multiple designs of ANN todo the training on them. These parameters define the range for creating a matrixthat contains the number of hidden layers and the number of Neurons (in eachhidden layer) of the dense network. Moreover, the number of features, classes, andthe path to save the best model can be configured in this file.
++ Configurations for training is done with Main_Impl/ANNinPython/config.ini file.The following parameters should be specified to create multiple designs of ANN to do the training on them. These parameters define the range for creating a matrix that contains the number of hidden layers and the number of Neurons (in each hidden layer) of the dense network. Moreover, the number of features, classes, and the path to save the best model can be configured in this file.
     -  HiddenLayers: The Maximum number of hidden layers
     -  HlStep: this is the increasing step of the number of hidden layers until reaching the maximum value, considering the starting value of hidden layers is 2 (hard-coded).
     -  Neurons: the Maximum number of neurons
